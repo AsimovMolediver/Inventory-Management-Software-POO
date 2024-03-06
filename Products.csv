@@ -1,0 +1,12 @@
+Produto,Tipo,Modelo,Cor,Tamanho,Quantidade,Preço,Qtd.Ideal,Qtd.Min
+Tira,Lisa,Aviador,Branca,22,9,0.2,10.0,2.0
+Borracha,90/10,Comum,Azul/Vermelho,A Definir,20,25.0,5.0,2.0
+Símbolo,Para colar,Logomarca,Padrão fundo preto,Regular,5,0.3,50.0,10.0
+Forma,Matálica,Padrão,Azul,23/24,1,25.0,1.0,1.0
+Forma,Metálica,Padrão,Azul,25/26,1,25.0,1.0,1.0
+Tira,Texturizada,Comum,Preta,29,10,25.0,1.0,1.0
+Borracha,80/20,Comum,,90cm,2,25.0,5.0,2.0
+Cola,Artesanal,TeKBond,Transparente,20g,10,20.0,10.0,2.0
+Expositor,Metálico,Padrão,Branco,Único,10,100.0,5.0,3.0
+Expositor,MDF,Padrao,Branco,Unico,60,100.0,,
+Sandalia,Texturizada,Comum,Branca,23/24,10,15.0,15.0,5.0

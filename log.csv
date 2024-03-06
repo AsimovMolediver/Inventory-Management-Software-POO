@@ -1,0 +1,58 @@
+DataHora,Funcao,LinhaModificada
+2023-12-13 21:34:06,add_item_and_update_s,11
+2023-12-13 21:57:10,update_item,"Index: 3, Column: Supplier, Old Value: dsad, New Value: aaaaa"
+2023-12-13 21:57:10,opt3_update,"Index: 3, Column: Supplier, New Value: aaaaa"
+2023-12-13 21:57:49,opt3_remove,"Index: 3, Supplier: aaaaa"
+2023-12-13 22:02:00,criar_template_ordem_compra,"Output PDF: OC_20231213_220148.pdf, Fornecedor: EXPOsiTORIUM, Valor Total: 100.0"
+2023-12-13 22:09:30,INSERT,0
+2023-12-13 22:38:56,VENDA,"{'action': 'SALE', 'index': 10, 'datetime': '2023-12-13 22:38:56', 'Produto': 'Sandalia', 'Tipo': 'Texturizada', 'Modelo': 'Comum', 'Cor': 'Branca', 'Tamanho': '23/24', 'Quantidade': 4, 'Preço': 15.0, 'Qtd.Ideal': 15.0, 'Qtd.Min': 5.0, 'DataHoraModificacao': '2023-12-13 22:38:56'}"
+2023-12-13 23:10:42,add_item_and_update_s,11
+2024-03-04 21:49:02,add_item_and_update_s,11
+2024-03-05 02:07:29,add_s,"Supplier: a, Product: s"
+DataHora,Funcao,LinhaModificada
+2024-03-05 18:14:50,add_item_and_update_s,12
+2024-03-05 18:18:52,add_item_and_update_s,13
+2024-03-05 18:21:13,add_item_and_update_s,13
+2024-03-05 18:22:12,add_item_and_update_s,14
+2024-03-05 18:22:32,add_s,"Supplier: Charlie, Product: a"
+2024-03-05 18:23:27,update_item,"Index: 14, Column: Produto, Old Value: a, New Value: adadadadada"
+2024-03-05 18:23:53,remove_item,"Index: 14, Item Info: {'Produto': 'adadadadada', 'Tipo': 'das', 'Modelo': 'da', 'Cor': 'sda', 'Tamanho': 'da', 'Quantidade': 10, 'Preço': 10.0, 'Qtd.Ideal': 10.0, 'Qtd.Min': 1.0}"
+2024-03-05 18:24:11,remove_item,"Index: 11, Item Info: {'Produto': 'a', 'Tipo': 's', 'Modelo': 's', 'Cor': 's', 'Tamanho': 's', 'Quantidade': 1, 'Preço': 1.0, 'Qtd.Ideal': 1.0, 'Qtd.Min': 1.0}"
+2024-03-05 18:24:22,remove_item,"Index: 11, Item Info: {'Produto': 'd', 'Tipo': 'asd', 'Modelo': 'asd', 'Cor': 'as', 'Tamanho': 'a', 'Quantidade': 10, 'Preço': 10.0, 'Qtd.Ideal': 10.0, 'Qtd.Min': 10.0}"
+2024-03-05 18:24:28,remove_item,"Index: 11, Item Info: {'Produto': 'da', 'Tipo': 'd', 'Modelo': 'ada', 'Cor': 'dad', 'Tamanho': 'a', 'Quantidade': 10, 'Preço': 10.0, 'Qtd.Ideal': 10.0, 'Qtd.Min': 10.0}"
+2024-03-05 18:26:43,add_s,"Supplier: Jones, Product: Cola"
+2024-03-05 18:27:15,update_item,"Index: 5, Column: Contato, Old Value: 6662342342, New Value: 666666534"
+2024-03-05 18:27:15,opt3_update,"Index: 5, Column: Contato, New Value: 666666534"
+2024-03-05 18:27:38,opt3_remove,"Index: 3, Supplier: a"
+2024-03-05 18:27:52,opt4,"Index: 1, Total Value: 8130.5"
+2024-03-05 18:31:35,criar_template_ordem_compra,"Output PDF: OC_20240305_183114.pdf, Fornecedor: Jones, Valor Total: 1000.0"
+2024-03-05 18:44:36,INSERT,0
+2024-03-05 18:50:27,INSERT,0
+2024-03-05 18:51:32,update_item,"Index: 10, Column: Quantidade, Old Value: 5, New Value: 1"
+2024-03-05 18:51:32,VENDA,"{'action': 'SALE', 'index': 10, 'datetime': '2024-03-05 18:51:32', 'Produto': 'Sandalia', 'Tipo': 'Texturizada', 'Modelo': 'Comum', 'Cor': 'Branca', 'Tamanho': '23/24', 'Quantidade': '1', 'Preço': 15.0, 'Qtd.Ideal': 15.0, 'Qtd.Min': 5.0, 'DataHoraModificacao': '2024-03-05 18:51:32'}"
+2024-03-05 19:55:20,add_item_and_update_s,11
+2024-03-05 19:55:39,add_item_and_update_s,12
+2024-03-05 19:56:17,add_s,"Supplier: Tob, Product: dasd"
+2024-03-05 19:56:34,update_item,"Index: 11, Column: Produto, Old Value: Plácido, New Value: dadadadada"
+2024-03-05 19:56:48,remove_item,"Index: 11, Item Info: {'Produto': 'dadadadada', 'Tipo': 'Mulherengo', 'Modelo': 'S', 'Cor': 'Branco', 'Tamanho': 'Alto', 'Quantidade': 10, 'Preço': 10.0, 'Qtd.Ideal': 10.0, 'Qtd.Min': 10.0}"
+2024-03-05 19:57:08,add_s,"Supplier: dada, Product: dada"
+2024-03-05 19:57:17,opt4,"Index: 1, Total Value: 8309.5"
+2024-03-05 20:22:18,add_item_and_update_s,12
+2024-03-05 20:27:34,update_item,"Index: 12, Column: Produto, Old Value: fesda, New Value: AAAAA"
+2024-03-05 22:08:59,add_item_and_update_s,13
+2024-03-05 22:09:19,add_item_and_update_s,14
+2024-03-05 22:09:28,add_s,"Supplier: asdasdasdadd, Product: sda"
+2024-03-05 22:09:47,update_item,"Index: 14, Column: Produto, Old Value: sda, New Value: FFFF"
+2024-03-05 22:10:08,add_s,"Supplier: sdasdasdasdasdsad, Product: dasdasdasdasdasdsada"
+2024-03-05 22:10:20,remove_item,"Index: 11, Item Info: {'Produto': 'dasd', 'Tipo': 'wqer', 'Modelo': 'afa', 'Cor': 'af', 'Tamanho': 'f', 'Quantidade': 10, 'Preço': 10.0, 'Qtd.Ideal': 10.0, 'Qtd.Min': 10.0}"
+2024-03-05 22:10:29,remove_item,"Index: 11, Item Info: {'Produto': 'AAAAA', 'Tipo': 'dasda', 'Modelo': 'dasdas', 'Cor': 'dasda', 'Tamanho': 'dasd', 'Quantidade': 10, 'Preço': 10.0, 'Qtd.Ideal': 10.0, 'Qtd.Min': 10.0}"
+2024-03-05 22:10:36,remove_item,"Index: 11, Item Info: {'Produto': 'asd', 'Tipo': 'asdasd', 'Modelo': 'asas', 'Cor': 'dsd', 'Tamanho': 'a', 'Quantidade': 10, 'Preço': 10.0, 'Qtd.Ideal': 10.0, 'Qtd.Min': 10.0}"
+2024-03-05 22:10:42,remove_item,"Index: 11, Item Info: {'Produto': 'FFFF', 'Tipo': 'sdas', 'Modelo': 'dasdasdasdas', 'Cor': 'dasdasdasd', 'Tamanho': 'dadad', 'Quantidade': 10, 'Preço': 10.0, 'Qtd.Ideal': 10.0, 'Qtd.Min': 10.0}"
+2024-03-05 22:11:03,opt3_remove,"Index: 6, Supplier: dada"
+2024-03-05 22:11:11,opt3_remove,"Index: 6, Supplier: asdasdasdadd"
+2024-03-05 22:11:17,opt3_remove,"Index: 6, Supplier: sdasdasdasdasdsad"
+2024-03-05 22:11:28,opt4,"Index: 1, Total Value: 8209.5"
+2024-03-05 22:12:13,INSERT,0
+2024-03-05 22:12:58,update_item,"Index: 0, Column: Quantidade, Old Value: 50, New Value: 10"
+2024-03-05 22:12:58,VENDA,"{'action': 'SALE', 'index': 0, 'datetime': '2024-03-05 22:12:58', 'Produto': 'Tira', 'Tipo': 'Lisa', 'Modelo': 'Aviador', 'Cor': 'Branca', 'Tamanho': '22', 'Quantidade': '10', 'Preço': 0.2, 'Qtd.Ideal': 10.0, 'Qtd.Min': 2.0, 'DataHoraModificacao': '2024-03-05 22:12:58'}"
+2024-03-05 22:49:54,VENDA,"{'action': 'SALE', 'index': 0, 'datetime': '2024-03-05 22:49:54', 'quantity_sold': 1}"
