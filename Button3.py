@@ -1,5 +1,5 @@
 import pandas as pd
-from Class import AtualizadorItem, Supplier, Logger
+from Class import AtualizadorItemLogger, Supplier, Logger
 
 class Opt3:
      
@@ -66,7 +66,8 @@ class Opt3:
                 index = int(input('\nEnter the index of the item to update: '))
                 if 0 <= index < len(s_df):
                     new_value = input(f'Enter the new value for {column}: ')
-                    s_df = AtualizadorItem.update_item(s_df, index, column, new_value)
+                    atualizador = AtualizadorItemLogger()
+                    s_df = AtualizadorItemLogger.update_item(s_df, index, column, new_value)
                     s_df.to_csv('Suppliers.csv', index=False)
                     Logger.registrar_log('opt3_update', f"Index: {index}, Column: {column}, New Value: {new_value}")
                     print("Information updated successfully!")

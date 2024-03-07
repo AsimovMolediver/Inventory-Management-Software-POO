@@ -1,6 +1,6 @@
 import pandas as pd 
 from datetime import datetime
-from Class import AtualizadorItem, Logger
+from Class import AtualizadorItemLogger, Logger
 
 def history_df_exists():
         try:

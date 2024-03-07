@@ -1,5 +1,5 @@
 import pandas as pd
-from Class import AtualizadorItem, Logger
+from Class import AtualizadorItemLogger, Logger
 
 
 class Opt2:
@@ -9,6 +9,7 @@ class Opt2:
         nome = 'Products.csv'
 
         p_df = pd.read_csv(nome)
+
 
         print("""
         Welcome to update menu!
@@ -34,7 +35,8 @@ class Opt2:
                 index = int(input('\nEnter the index of the item to update: '))
                 if 0 <= index < len(p_df):
                     new_value = input(f'Enter the new value for {column}: ')
-                    p_df = AtualizadorItem.update_item(p_df, index, column, new_value)
+                    atualizador = AtualizadorItemLogger()
+                    p_df = atualizador.update_item(p_df, index, column, new_value)
                     p_df.to_csv('Products.csv', index=False)
                     print("Item updated successfully!")
                 else:

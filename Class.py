@@ -29,22 +29,25 @@ class Produto:
         Logger.registrar_log('add_item_and_update_s', last_index + 1)
         return p_df
 
-class AtualizadorItem:
+class AtualizadorBase:
+    def adicionar_item(self, df, novo_item):
+        pass
 
+    def update_item(self, p_df, index, column, new_value):
+        pass
+
+class AtualizadorItemLogger(AtualizadorBase):
     @staticmethod
     def adicionar_item(df, novo_item):
         return pd.concat([df, novo_item], ignore_index=True)
 
     @staticmethod
     def update_item(p_df, index, column, new_value):
-
         old_value = p_df.at[index, column]
-
         p_df.at[index, column] = new_value
-
         Logger.registrar_log('update_item', f"Index: {index}, Column: {column}, Old Value: {old_value}, New Value: {new_value}")
-
         return p_df
+
     
 class Supplier:
 
@@ -67,6 +70,7 @@ class Supplier:
     def listar_s(s_df, product):
         if product in s_df['Produto'].values:
          print(f"Fornecedor de : {s_df['Produto'].values}")
+
 
 class Logger:
 
@@ -94,6 +98,10 @@ class Logger:
             df = pd.read_csv(nome, encoding='latin-1')
     
         print(df)   
+
+
+
+
 
 class Load:
         

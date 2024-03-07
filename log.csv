@@ -56,3 +56,4 @@ DataHora,Funcao,LinhaModificada
 2024-03-05 22:12:58,update_item,"Index: 0, Column: Quantidade, Old Value: 50, New Value: 10"
 2024-03-05 22:12:58,VENDA,"{'action': 'SALE', 'index': 0, 'datetime': '2024-03-05 22:12:58', 'Produto': 'Tira', 'Tipo': 'Lisa', 'Modelo': 'Aviador', 'Cor': 'Branca', 'Tamanho': '22', 'Quantidade': '10', 'Preço': 0.2, 'Qtd.Ideal': 10.0, 'Qtd.Min': 2.0, 'DataHoraModificacao': '2024-03-05 22:12:58'}"
 2024-03-05 22:49:54,VENDA,"{'action': 'SALE', 'index': 0, 'datetime': '2024-03-05 22:49:54', 'quantity_sold': 1}"
+2024-03-07 20:05:51,update_item,"Index: 10, Column: Produto, Old Value: Sandalia, New Value: SSandalia"
