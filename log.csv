@@ -57,3 +57,21 @@ DataHora,Funcao,LinhaModificada
 2024-03-05 22:12:58,VENDA,"{'action': 'SALE', 'index': 0, 'datetime': '2024-03-05 22:12:58', 'Produto': 'Tira', 'Tipo': 'Lisa', 'Modelo': 'Aviador', 'Cor': 'Branca', 'Tamanho': '22', 'Quantidade': '10', 'Preço': 0.2, 'Qtd.Ideal': 10.0, 'Qtd.Min': 2.0, 'DataHoraModificacao': '2024-03-05 22:12:58'}"
 2024-03-05 22:49:54,VENDA,"{'action': 'SALE', 'index': 0, 'datetime': '2024-03-05 22:49:54', 'quantity_sold': 1}"
 2024-03-07 20:05:51,update_item,"Index: 10, Column: Produto, Old Value: Sandalia, New Value: SSandalia"
+2024-03-07 21:48:28,add_item_and_update_s,11
+2024-03-07 21:49:01,add_s,"Supplier: Gilo, Product: Teste"
+2024-03-07 21:49:30,update_item,"Index: 11, Column: Produto, Old Value: Teste, New Value: teste"
+2024-03-07 21:50:37,update_item,"Index: 11, Column: Produto, Old Value: Teste, New Value: teste"
+2024-03-07 21:51:07,remove_item,"Index: 11, Item Info: {'Produto': 'teste', 'Tipo': 'das', 'Modelo': 'adsa', 'Cor': 'dasda', 'Tamanho': 'asdas', 'Quantidade': 10, 'Preço': 10.0, 'Qtd.Ideal': 10.0, 'Qtd.Min': 10.0}"
+2024-03-07 21:51:20,opt4,"Index: 1, Total Value: 8303.3"
+2024-03-07 22:10:42,add_item_and_update_s,11
+2024-03-07 22:10:48,add_s,"Supplier: sdas, Product: dasd"
+2024-03-07 22:10:59,update_item,"Index: 11, Column: Produto, Old Value: dasd, New Value: sdasda"
+2024-03-07 22:11:10,remove_item,"Index: 11, Item Info: {'Produto': 'sdasda', 'Tipo': 'dasdsa', 'Modelo': 'dsad', 'Cor': 'asd', 'Tamanho': 'asda', 'Quantidade': 10, 'Preço': 10.0, 'Qtd.Ideal': 10.0, 'Qtd.Min': 10.0}"
+2024-03-07 22:11:29,add_s,"Supplier: adsad, Product: asdas"
+2024-03-07 22:11:40,opt3_remove,"Index: 7, Supplier: sdas"
+2024-03-07 22:11:56,add_s,"Supplier: sad, Product: asdasdasdas"
+2024-03-07 22:12:06,opt4,"Index: 1, Total Value: 8203.3"
+2024-03-07 22:12:27,opt4,"Index: 1, Total Value: 8203.3"
+2024-03-07 22:12:44,INSERT,0
+2024-03-07 22:13:01,VENDA,"{'action': 'SALE', 'index': 10, 'datetime': '2024-03-07 22:13:01', 'quantity_sold': 4}"
+2024-03-07 22:17:23,criar_template_ordem_compra,"Output PDF: OC_20240307_221715.pdf, Fornecedor: BorrachasS, Valor Total: 100.0"
